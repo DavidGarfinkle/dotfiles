@@ -17,14 +17,8 @@ export PS2="| => "
 #Autocorrect typos in path names when using 'cd'
 shopt -s cdspell
 
-#make this shit not suck
-alias ..="cd ../"
-alias ...="cd ../../"
-alias .3="cd ../../../"
-alias .4="cd ../../../../"
-
 #bash_profile
-alias bp="vim ~/.bash_profile"
+alias bp="vim ~/dotfiles/bash_profile"
 alias bpr="source ~/.bash_profile"
 
 #vim_profile
@@ -32,17 +26,10 @@ alias vp="vim ~/.vimrc"
 
 #directories
 export gdir="/Users/admin/Google\ Drive"
-export gschool="$gdir/School"
-export gprog="$gdir/Programming"
-export glily="$gprog/Lilypond"
-alias cdgd="cd $gdir"
-alias cdgdp="cd $gprog"
-alias cdgdl="cd $glily"
-alias math255="cd /Users/admin/Google\ Drive/School/Third\ Year/Second\ Semester/MATH\ 255"
-alias c4year="cd $gschool/Fourth\ Year/"
-
-#gdrive() { "$1 " $gdir " $2" } 
-#export -f gdrive
+alias dgoog="cd $gdir"
+alias dprog="cd $gdir/Programming"
+alias dlily="cd $gdir/Programming/Lilypond"
+alias dyear4="cd $gdir/School/Fourth\ Year/"
 
 #C Programming
 alias c="./a.out"
