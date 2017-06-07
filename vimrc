@@ -30,6 +30,7 @@ let g:SimpylFold_docstring_preview=1
 
 "Number lines, colour scheme
 set number
+set ruler
 syntax on
 colorscheme desert
 let python_highlight_all=1
