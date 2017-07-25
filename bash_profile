@@ -31,7 +31,8 @@ alias dprog="cd $gdir/Programming"
 alias dlily="cd $gdir/Programming/Lilypond"
 alias dyear4="cd $gdir/School/Fourth\ Year/"
 
-alias ddmal="ssh david.garfinkle@132.206.14.124"
+alias ddmal="ssh david.garfinkle@132.206.14.115"
+alias patternfinder="ssh dgarfinkle@132.206.14.238"
 
 #C Programming
 alias c="./a.out"
