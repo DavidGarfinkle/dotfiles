@@ -4,19 +4,16 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
-"call vundle#begin()
-
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+call vundle#begin()
 
 " let Vundle manage Vundle, required
-" Plugin 'gmarik/Vundle.vim'
+ Plugin 'gmarik/Vundle.vim'
 
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
-
-"Plugin 'tmhedberg/SimpylFold'
-"Plugin 'vim-scripts/indentpython.vim'
-"Bundle 'Valloric/YouCompleteMe'
+Plugin 'tmhedberg/SimpylFold'
+Plugin 'vim-scripts/indentpython.vim'
+Bundle 'lepture/vim-jinja'
+Bundle 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 "call vundle#end()            " required
